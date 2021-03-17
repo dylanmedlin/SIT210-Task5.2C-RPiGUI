@@ -64,8 +64,6 @@ class Ui_MainWindow(object):
         GPIO.output(pins[1], GPIO.LOW)
         GPIO.output(pins[2], GPIO.HIGH)
 
-
-
 if __name__ == "__main__":
     try:
         import sys
